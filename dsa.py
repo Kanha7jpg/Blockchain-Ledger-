@@ -5,6 +5,9 @@ import PySimpleGUI as sg
 from ecdsa import SigningKey, VerifyingKey, SECP256k1
 from collections import defaultdict
 
+#Download pysimplegui and ecdsa using pip if you haven't already:
+# pip install pysimplegui ecdsa
+
 
 # Helper functions for hashing
 def hash_data(data):
